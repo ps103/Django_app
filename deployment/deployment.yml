@@ -1,0 +1,9 @@
+
+version: "3.8"
+services:
+  django_app:
+    image: psharma10394/django-app:latest
+    ports:
+      - "8004:8001"
+  
+
